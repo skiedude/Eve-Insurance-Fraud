@@ -20,6 +20,12 @@ Install required pip packages
 pip install -r requirements.txt
 ```
 
+Update Config
+```shell
+cp config.dist config.py
+```
+**Update the ESI_USER_AGENT**
+
 ## Usage
 
 ### Help
