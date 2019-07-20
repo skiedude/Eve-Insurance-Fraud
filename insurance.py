@@ -132,9 +132,7 @@ def get_regions(cache):
 def runner(reg_name, list_regions):
   cache = shelve.open(config.CACHE_FILE, flag='c')
   insurance = None
-  
     
-
   if not cache.has_key('insurance_data'):
     print('Insurance data was not cached, getting it')
     get_insurance(cache)
