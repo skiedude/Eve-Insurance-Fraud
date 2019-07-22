@@ -1,6 +1,6 @@
 # Eve-Insurance-Fraud
 
-A simple python script that checks the specific region for Ships that would be profitable to buy off Sell order, insure and blow up in the method of your choosing!
+A simple python script that checks the specific region for Ships that would be profitable to buy off Sell order, insure and blow up in the method of your choosing! (Currently compatible with python 2.7)
 
 ## Installation
 Pull down the repo
@@ -48,6 +48,12 @@ Derelik,The Forge,Vale of the Silent.......
 ```
 
 ### Check Specific Region
+
+`Total Volume Remaining` - the number of ships in the min/max sell order range that are profitable  
+`Min Price:` - the minimum sell price to buy from  
+`Max Price` - the maximum sell price to buy from  
+`Total Profit` - overall all profit from insuring/destroying the Total Volume Remaining ships  
+
 ```shell
 $ python insurance.py --region 'Genesis'
 Looking up prices in Region: Genesis
